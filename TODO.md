@@ -1,7 +1,7 @@
 # Cross browser compatibility
 
 - [X]: Chrome
-- []: Firefox
+- [X]: Firefox
 - []: Opera
 - [X]: IE
 - [X]: Mobile
