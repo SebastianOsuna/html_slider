@@ -5,6 +5,7 @@ Simple HTML slider. No dependecies!
 
 # Usage
 
+- Mark your HTML correctly with `<!DOCTYPE HTML SYSTEM>`.
 - Include `lib/slider.js` and `styles/slider.css` for development,  or `dist/slider.min.js` and `dist/slider.min.css` for
   production.
 - Place an empty `<div>` where you want the slider to be.

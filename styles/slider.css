@@ -12,6 +12,8 @@
     border-radius: 6px;
     border: 1px solid;
     margin-top: 20px;
+    height: 6px;
+
     border-color: #aaaaaa;
 }
 
@@ -22,6 +24,7 @@
     display: inline-block;
     max-width: 100%;
     min-width: 0;
+    float: left;
 
     background-color: #999999;
 }
@@ -31,9 +34,10 @@
     width: 8px;
     height: 16px;
     cursor: pointer;
-    margin: -8px -8px -8px -4px;
+    margin: -6px -8px -0px -4px;
     border: 1px solid;
     border-radius: 4px;
+    float: left;
 
     background-color: #e6e6e6;
     border-color: #d3d3d3;

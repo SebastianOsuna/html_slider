@@ -1,9 +1,9 @@
 # Cross browser compatibility
 
-- []: Chrome
+- [X]: Chrome
 - []: Firefox
 - []: Opera
-- []: IE
+- [X]: IE
 - []: Mobile
 
 # jQuery plugin
