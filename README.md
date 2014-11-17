@@ -3,6 +3,8 @@ HTML Slider
 
 Simple HTML slider. No dependecies!
 
+[Try it!](http://jsfiddle.net/wy8pwhss/1/)
+
 # Usage
 
 - Mark your HTML correctly with `<!DOCTYPE HTML SYSTEM>`.
