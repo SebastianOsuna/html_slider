@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>HTML Slide</title>
+        <script src="dist/slider.min.js"></script>
+        <link rel="stylesheet" href="dist/slider.min.css"/>
+    </head>
+    <body>
+        <div id="html-slider"></div>
+        <style>
+            body { padding-top: 100px; }
+            #html-slider {
+                width: 1000px;
+                display: block;
+                margin: 0 auto;
+            }
+        </style>
+        <script>
+           var mySlider = new HTMLSlider({
+               selector: "#html-slider",
+               label: function(val, min, max) {
+                   if ( val >= max ) {
+                       return "$ "+max.toLocaleString()+"+";
+                   } else if ( val <= min ) {
+                       return "Free"
+                   } else {
+                       return "$ "+Math.floor(val).toLocaleString();
+                   }
+               },
+               min: 200,
+               initialValue: 0,
+               max: 100000,
+               value: function(progress) { return Math.round((progress/100)*(this.max-this.min) + this.min); },
+               onchange: function(val) { console.log(val) },
+               labelLocation: 'right'
+           })
+        </script>
+    </body>
+</html>
