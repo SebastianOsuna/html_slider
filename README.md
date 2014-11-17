@@ -20,12 +20,19 @@ Simple HTML slider. No dependecies!
 new Slider({selector: "#mySlider"})
 ```
 
+- To improve mobile support add
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
 # Options
 
 The slider constructor accepts a configuration object with the following options:
 
 Option | Defaults | Description
 --- | --- | ---
+selector | **Required** | Id ('#') selector of the slider.
 min | 0 | Minimum value the slider can take
 max | 100 |  Maximum value the slider can take
 initialValue | 0 | Initial value of the slider

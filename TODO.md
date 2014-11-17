@@ -4,7 +4,7 @@
 - []: Firefox
 - []: Opera
 - [X]: IE
-- []: Mobile
+- [X]: Mobile
 
 # jQuery plugin
 
