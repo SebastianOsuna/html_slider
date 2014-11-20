@@ -45,6 +45,7 @@
 
 .slider-label {
     float: left;
+    margin-bottom: 0 !important;
 }
 
 .slider-label.slider-label-right {
