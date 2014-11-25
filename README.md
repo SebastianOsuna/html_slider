@@ -34,7 +34,8 @@ The slider constructor accepts a configuration object with the following options
 
 Option | Defaults | Description
 --- | --- | ---
-selector | **Required** | Id ('#') selector of the slider.
+element | *See `selector`* | Root `<div>` for the slider
+selector | **Required if `element` is not given** | Id ('#') selector of the root `<div>` for the slider.
 min | 0 | Minimum value the slider can take
 max | 100 |  Maximum value the slider can take
 initialValue | 0 | Initial value of the slider

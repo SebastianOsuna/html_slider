@@ -9,7 +9,7 @@
         <!--<script src="lib/slider.js"></script>-->
         <style>
             body { padding-top: 100px; }
-            #html-slider {
+            #html-slider, #html-slider2 {
                 width: 70%;
                 display: block;
                 margin: 0 auto;
@@ -18,7 +18,7 @@
     </head>
     <body>
         <div id="html-slider"></div>
-
+        <div id="html-slider2"></div>
         <script>
            var mySlider = new HTMLSlider({
                selector: "#html-slider",
@@ -37,7 +37,12 @@
                value: function(progress) { return Math.round((progress/100)*(this.max-this.min) + this.min); },
                onchange: function(val) { console.log(val) },
                labelLocation: 'right'
-           })
+           });
+
+            var mySecondSlider = new HTMLSlider({
+                element: document.getElementById('html-slider2'),
+                initialValue: 50
+            });
         </script>
     </body>
 </html>

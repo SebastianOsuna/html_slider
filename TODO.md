@@ -1,6 +1,10 @@
-# Fix options.selector 
+# Fix options.selector
 
-# Accept options.element
+Add support for class selectors.
+
+# Dual knob 
+
+Support dual knobs for ranges
 
 # Cross browser compatibility
 
