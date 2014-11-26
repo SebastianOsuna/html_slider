@@ -3,10 +3,10 @@
     <head>
         <title>HTML Slide</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="dist/slider.min.js"></script>
-        <link rel="stylesheet" href="dist/slider.min.css"/>
-        <!--<link rel="stylesheet" href="styles/slider.css"/>-->
-        <!--<script src="lib/slider.js"></script>-->
+        <!--<script src="dist/slider.min.js"></script>-->
+        <!--<link rel="stylesheet" href="dist/slider.min.css"/>-->
+        <link rel="stylesheet" href="styles/slider.css"/>
+        <script src="lib/slider.js"></script>
         <style>
             body { padding-top: 100px; }
             #html-slider, #html-slider2 {
@@ -41,7 +41,8 @@
 
             var mySecondSlider = new HTMLSlider({
                 element: document.getElementById('html-slider2'),
-                initialValue: 50
+                initialValue: 50,
+                forRange: true
             });
         </script>
     </body>

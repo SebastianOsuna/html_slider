@@ -43,6 +43,11 @@
     border-color: #d3d3d3;
 }
 
+.slider-knob.secondary-knob {
+    position: absolute;
+    z-index: 10;
+}
+
 .slider-label {
     float: left;
     margin-bottom: 0 !important;

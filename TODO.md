@@ -1,10 +1,14 @@
+# Dual knob 
+
+Support dual knobs for ranges
+
 # Fix options.selector
 
 Add support for class selectors.
 
-# Dual knob 
+# Knob icons
 
-Support dual knobs for ranges
+Support icons for knobs
 
 # Cross browser compatibility
 
